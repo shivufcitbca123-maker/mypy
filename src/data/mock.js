@@ -5,6 +5,13 @@ export const student = {
     department: 'Computer Science',
     semester: 'Semester 4',
     attendance: 64,
+    attendanceTrend: [
+        { period: 'Week 1', attendance: 76 },
+        { period: 'Week 2', attendance: 72 },
+        { period: 'Week 3', attendance: 69 },
+        { period: 'Week 4', attendance: 66 },
+        { period: 'Week 5', attendance: 64 },
+    ],
     dbms: 49,
     python: 58,
     java: 55,
